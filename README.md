@@ -28,7 +28,7 @@ The circuit closed-loop voltage gain is Avcl= -RF / R1
 <img width="401" height="173" alt="image" src="https://github.com/user-attachments/assets/84328324-1ceb-4c3c-98af-eb5f5e1b7829" />
 
 # CIRCUIT DIAGRAM: INVERTING AMPLIFIER:
-<img width="501" height="253" alt="image" src="https://github.com/user-attachments/assets/6284755d-2db8-4ec6-8130-f1ab3d233a74" />
+<img width="944" height="253" alt="image" src="https://github.com/user-attachments/assets/66a0de5c-4223-47c2-a3a0-f955c9624f96" />
 
 # MODEL GRAPH:
 <img width="450" height="228" alt="image" src="https://github.com/user-attachments/assets/235f4402-0bee-42b7-80de-38055bb37b2c" />
