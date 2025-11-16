@@ -37,7 +37,8 @@ AV=Vd/V2-V1=-Rf/Ri
 # PIN DIAGRAM
 <img width="401" height="173" alt="image" src="https://github.com/user-attachments/assets/84328324-1ceb-4c3c-98af-eb5f5e1b7829" />
 
-# CIRCUIT DIAGRAM: INVERTING AMPLIFIER:
+# CIRCUIT DIAGRAM:
+# INVERTING AMPLIFIER:
 <img width="597" height="277" alt="image" src="https://github.com/user-attachments/assets/a0babb36-f3b8-4467-b8e0-8af9caed8ee1" />
 
 # MODEL GRAPH:
@@ -58,11 +59,43 @@ AV=Vd/V2-V1=-Rf/Ri
 <img width="658" height="213" alt="image" src="https://github.com/user-attachments/assets/a41aaf0b-11ac-4694-9366-34c0028075c3" />
 
 # DESIGN:
+Inverting amplifier:
+A = -Rf/R1 
+Take A = 10 
+Rf = 10 R1 
+Choose R1 = 1 kΩ, Rf = 10 kΩ 
 
+Non inverting amplifier:
+A = 1 + Rf/R1 
+Take A = 2 
+Rf = R1 
+Choose Rf = 10 kΩ, R1 = 10 kΩ 
+
+Differential amplifier
+Therefore overall gain is 
+A = Vo / (V1 − V2) = − Rf / R1 
+
+Take A = 10 
+
+Rf = 10 R1 
+Choose R1 = 1 kΩ, Rf = 10 kΩ
 # TABULATION:
+##  INVERTING AMPLIFIER
+![e25e398b-97b0-40bc-9063-921fcdbb1a49](https://github.com/user-attachments/assets/91368a5d-e786-4f1b-bf35-e337d6060730)
+
+## NON INVERTING AMPLIFIER
+![a1fca46e-724c-4bcb-8722-6ec81f0e5593](https://github.com/user-attachments/assets/6fa2f596-c5c6-4723-a961-ffb45e633015)
+## DIFFERENTIAL AMPLIFIER 
+![cfe45514-a3aa-4283-a92a-0066f7030da4](https://github.com/user-attachments/assets/fab3f8ca-5b8c-4612-b87a-902d4207d41b)
 
 # THEORETICAL CALCULATION:
+![17902ad3-182a-41c7-8998-1d2113f537bc](https://github.com/user-attachments/assets/05e638f5-c01e-4987-bfb5-10d34e0bb040)
+![bf03733f-983d-4fdc-9852-415400e2d1ef](https://github.com/user-attachments/assets/9bd14cee-ebc3-460c-91e5-4f58947765c9)
+![fda669df-4808-43fe-b32e-8204662d9eda](https://github.com/user-attachments/assets/3c1241f5-93aa-456b-8675-c399637cfcd2)
 
 # GRAPH:
+![94a84386-b63c-438f-93f2-12688b754211](https://github.com/user-attachments/assets/584740bd-045b-4ce0-acbf-35f384054278)
+![3aa669ad-f062-418e-bf4f-8cdd66f01839](https://github.com/user-attachments/assets/3e27a29d-9547-48a6-bfe9-1dd3a836bbe3)
 
 # RESULT:
+<img width="1080" height="552" alt="image" src="https://github.com/user-attachments/assets/7f994304-7038-4a4e-8655-71e28e2a4f11" />
